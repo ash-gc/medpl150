@@ -1,0 +1,156 @@
+/*core theme configuration*/
+
+/* color theme hex 
+biege           #F4F1DE
+light purple    #AFA9D9
+dark purple     #8082A6
+navy blue       #282E40
+peach           #F2A172
+light blue      #B0B8D8
+font-family: 'Garamond', serif;
+*/
+
+/* global style
+-----*/
+html,body {
+    min-height: 100%;
+}
+body {
+	min-height: 100%;
+    max-width: 1000px;
+    background-color: #B0B8D8;
+	font-family: 'Garamond', serif;
+	color: #282E40;
+	margin: 15px;
+	text-align: center;
+	}
+
+/* links -----*/
+
+a {
+    color:#282E40;
+    cursor:pointer;
+}
+
+a:hover {
+    color: #8082A6;
+    text-decoration: underline;
+    transition-duration: 0.4s;
+    cursor:pointer;
+}
+
+.button {
+    color:#F2A172;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size:16px;
+    transition-duration: 0.4s;
+    border: none;
+    margin: 4px 2x;
+    cursor:pointer;
+}
+
+.button1 {
+    background-color:#F2A172;
+    color:#282E40;
+    border: 2px solid #282E40;
+}
+
+.button1:hover {
+    background-color:#282E40;
+    color:#F2A172;
+}
+
+.button2 {
+    background-color:#F2A172;
+    color:#282E40;
+    border: 2px solid #282E40;
+}
+
+.button2:hover {
+    background-color:#282E40;
+    color:#F4F1DE;
+}
+
+footer a {
+    color:#282E40;
+}
+
+/* homepage----*/
+
+h1 {
+    background-color: #F4F1DE;
+    color: #282E40;
+    font-size: 30px;
+    padding:15px;
+    text-align: left;
+    border-radius: 15px;
+}
+h2 {
+    color:#282E40;
+    font-size: 15px;
+    padding: 0;
+    max-width:fit-content;
+    border: 5px #F2A172;
+}
+h4 {
+    background-color: #B0B8D8;
+    color: #282E40;
+    font-size: 20px;
+    padding: 5px;
+    position: absolute;
+    left: -250px;
+    padding: 5px;
+}
+
+p {
+    background-color:#F4F1DE;padding:10px;
+    max-width: 450px;
+    font-family: 'Garamond', serif;
+    font-size: 17px;
+    border:none;text-align: justify;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+nav{
+    text-align: center;
+    background-color: #F2A172;
+    border: 20px solid #F2A172;
+    padding: 15px;
+    color:#F4F1DE;
+    margin-bottom: 20px;
+    font-size: large;
+    font-style: oblique;
+    width: 300px;
+    border-radius: 75px;
+    position: relative;
+    left: 5%;
+}
+img {
+    border: 20px solid #F4F1DE;
+    padding: 20px;
+    width: 250px;
+    border-radius: 85px;
+    position: absolute;left: 600px;
+    position: absolute;top: 75px;
+
+}
+
+footer {
+    background-color:#F4F1DE;
+    padding:15px;
+    text-align: center;
+    border-radius: 15px;
+    position: relative; 
+    top:100%;
+    bottom:10%;
+    height: 20px;
+}
+
+button {
+    background:#f2a172;
+    color: #F4F1DE;
+}
